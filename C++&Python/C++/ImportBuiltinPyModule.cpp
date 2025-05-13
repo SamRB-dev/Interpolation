@@ -1,8 +1,5 @@
 #include <python3.13/Python.h>
 #include <iostream>
-#include <python3.13/pylifecycle.h>
-#include <python3.13/unicodeobject.h>
-
 int main(void) {
     Py_Initialize();
     PyObject *pName, *pModule, *pFunc, *pResult;
